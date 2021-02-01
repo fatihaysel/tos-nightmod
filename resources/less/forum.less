@@ -1,0 +1,36 @@
+@media @tablet-up {
+    .App-primaryControl{
+        &.item-nightmode,
+        &.item-daymode{
+            display: none;
+        }
+    }
+}
+
+@media @phone {
+    .TagHero + .container {
+        .App-primaryControl{
+            &.item-nightmode,
+            &.item-daymode{
+                display: none;
+            }
+        }
+    }
+/*
+   .App-primaryControl {
+        &.item-nightmode,
+        &.item-daymode {
+            border: solid 1px #2986CC;
+            border-radius: 32px;
+            width: 30px;
+            height: 30px;
+            right: 5px;
+            top:5px !important;
+            border-radius: 25px;
+            padding: 13px;
+            background:url('/assets/extensions/fof-nightmode/day-mode.png') no-repeat center;
+            background-size:24px;
+        }
+   }
+*/
+}
